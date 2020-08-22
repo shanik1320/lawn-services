@@ -1,14 +1,15 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 function Footer() {
   return (
+      <Container style={{position:"fixed", bottom: "0", backgroundColor:"black" }}>
     <footer>
-      <hr />
-      <p className="pull-right">
-        <i className="fab fa-github" /> Proudly built using React.js
-      </p>
+     
+         <p style={{color:"white", }} >Lawn Care because you Care</p>
     </footer>
-  );
+    </Container>
+  ); 
 }
 
 export default Footer;
