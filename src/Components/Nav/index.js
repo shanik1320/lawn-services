@@ -7,10 +7,10 @@ import {Navbar, Nav, Form, FormControl,Button} from "react-bootstrap"
 function Navigation () {
     return (
         <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">LCL Lawn Care Limitless</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="#services">Services</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>
         <Form inline>
