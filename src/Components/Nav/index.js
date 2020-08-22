@@ -10,9 +10,10 @@ function Navigation () {
         <Navbar.Brand href="#home">LCL Lawn Care Limitless</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#services">Services</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <Nav.Link href="#contact">Contact Us</Nav.Link>
+          <Nav.Link href="#services" className="link">Services</Nav.Link>
+          <Nav.Link href="#pricing" className="link" >Pricing</Nav.Link>
+          <Nav.Link href="#pricing" className="link" >Pricing</Nav.Link>
+          <Nav.Link href="#contact" className="link">Contact Us</Nav.Link>
         </Nav>
         {/* <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
