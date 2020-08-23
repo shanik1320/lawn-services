@@ -9,7 +9,7 @@ function Navigation () {
         <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">LCL Lawn Care Limitless</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">About Us</Nav.Link>
+          <Nav.Link href="#about">About Us</Nav.Link>
           <Nav.Link href="#services" className="link">Services</Nav.Link>
           {/* <Nav.Link href="#pricing" className="link" >Pricing</Nav.Link> */}
           {/* <Nav.Link href="#pricing" className="link" >Pricing</Nav.Link> */}
