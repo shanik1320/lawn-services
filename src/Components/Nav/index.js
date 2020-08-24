@@ -1,14 +1,16 @@
 import React from 'react';
-import {Navbar, Nav, Form, FormControl,Button} from "react-bootstrap"
+import {Navbar, Nav} from "react-bootstrap"
+import { Component } from "react";
 
 
 
 
-function Navigation () {
+class Navigation extends Component {
+  render () {
     return (
         <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">LCL Lawn Care Limitless</Navbar.Brand>
-        <Nav className="mr-auto" className="justify-content-end">
+        <Nav className="mr-auto justify-content-end">
           <Nav.Link href="#about">About Us</Nav.Link>
           <Nav.Link href="#services" className="link">Services</Nav.Link>
           {/* <Nav.Link href="#pricing" className="link" >Pricing</Nav.Link> */}
@@ -21,6 +23,7 @@ function Navigation () {
         </Form> */}
       </Navbar>
     )
+      }
 }
 
 export default Navigation;
